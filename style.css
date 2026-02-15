@@ -102,3 +102,35 @@ h6 {
 h1 {
   font-size: 4rem;
 }
+
+body.resume article {
+  background: oklch(95.01% 0.02375 262.144);
+  padding: 1.25rem;
+  border: 1px solid oklch(95.01% 0.02375 262.144);
+  margin-bottom: 1.25rem;
+
+}
+
+body.resume article h4 {
+  margin: 0;
+}
+
+body.resume article p {
+  margin: 0.25rem 0 0.5rem;
+}
+
+body.resume ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+body.resume a[href*="drive.google.com"] {
+  display: inline-block;
+  padding: 0.4em 0.7em;
+  border: 1px solid oklch(85% 3% 200);
+  text-decoration: none;
+}
+
+body.resume a[href*="drive.google.com"]:hover {
+  background: oklch(from var(--color-accent) 95% 5% h);
+}
