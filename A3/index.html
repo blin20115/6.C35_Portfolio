@@ -40,14 +40,42 @@
     <section id="insights">
         <h2>Insights</h2>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>There's a clear seasonal rhythm, since winters are consistently the worst, summers relatively calmer.
+                The spiral format actually makes this quite intuitive since the same months stack on top of each other
+                across years.</li>
+            <li>
+                Summer 2020 (the bottom of the innermost loop, around July) is almost paper-thin, since cases were
+                relatively low early in the pandemic
+            </li>
+            <li>
+                Cases started in March 2020, since that's the start of the red line, but didn't have visible width until
+                April.
+            </li>
         </ul>
     </section>
 
     <section id="critique">
         <h2>Critique</h2>
+        <p>
+            Its greatest strength is the seasonal stacking. By looping each year around the same calendar positions, it
+            makes the recurring winter surges immediately intuitive without requiring the reader to explicitly compare
+            across years. The dramatic spike bursting off the top of the chart is also powerful. It
+            communicates the sheer scale of that wave in a way a standard line chart might not, and feels appropriate
+            for an opinion piece trying to convey urgency rather than precision. The minimalist labeling (just a few
+            month anchors, year markers, and a single legend item) keeps the design uncluttered, and the muted pink
+            palette is easy on the eye while still conveying something alarming.
+        </p>
+
+        <p>
+            However, the design has some meaningful readability costs. The width encoding for case counts is harder to
+            decode than a standard position-on-axis encoding. The 150K legend marker is hard to follow, and thin bands
+            (representing lower but still significant case counts) are nearly impossible to quantify, making it
+            difficult to compare. The 7-day average line is labeled but never explained, which
+            may leave general readers, the likely audience for an NYT opinion piece, unsure what it means or why it
+            differs from the shaded band. The spiral structure also demands a degree of visual literacy, since readers
+            must consciously trace the path to orient themselves by year and month, and there's no clear visual entry
+            point guiding where to start reading.
+        </p>
     </section>
 
     <section id="sketches">
